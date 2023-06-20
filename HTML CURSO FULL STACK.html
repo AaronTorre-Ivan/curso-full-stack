@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BuscarIA</title>
+  <link rel="stylesheet" type="text/css" href="CSS CURSO FULL STACK.css">
+  <script src="JS CURSO FULL STACK.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <header>
+    <ul>
+    <div class="header">
+      <div>
+        <a href="#"  onclick="mostrarContenido('home')"><img src="busacr ia logo sin fondo.png" width="300px" height="100px" alt="BuscarIA"></a>
+      </div>
+    <nav>
+      <li><a href="#" onclick="mostrarContenido('chatbot'); cambiarColor(this)">ChatBot</a></li>
+      <li><a href="#" onclick="mostrarContenido('imagenes'); cambiarColor(this)">Imagenes</a></li>
+      <li><a href="#" onclick="mostrarContenido('videos'); cambiarColor(this)">Videos</a></li>
+      <li><a href="#" onclick="mostrarContenido('audio'); cambiarColor(this)">Audio</a></li>
+      <li><a href="#" onclick="mostrarContenido('formulario'); cambiarColor(this)">Formulario</a></li>      
+  </ul>
+  </nav>
+  </div>
+  </header>
+</head>
+<body>
+  <div id="home" class="tab-content">
+    <h2>¿Qué es una Inteligencia Artificial (IA)?</h2>
+    <p>La Inteligencia Artificial es un campo de estudio que se enfoca en crear sistemas informáticos capaces de realizar tareas que normalmente requieren de inteligencia humana. Estos sistemas pueden aprender, razonar, planificar, reconocer imágenes, procesar lenguaje natural y mucho más.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+    <!--Podemos agregar una breve explicacion de lo que es la pagina y que tipo de AI van a encontrar-->
+  </div>
+
+  <div id="chatbot" class="tab-content">
+    <div class="sidebar">
+      <ul class="navigation">
+      <li>
+        <a href="#chatgpt">ChatGPT</a>
+      </li>
+      <li>
+        <a href="#luzia">LuzIA</a>
+      </li>
+      <li>
+        <a href="#yatter_plus">Yatter Plus</a>
+      </li>
+      <li>
+        <a href="#perplexity_ai">Perplexity AI</a>
+      </li>
+      <li>
+        <a href="#youchat">YouChat</a>
+      </li>
+    </ul>
+    </div>
+    <div class="content">
+    <h2 id="chatgpt"><a href="https://chat.openai.com/auth/login">ChatGPT</h2></a>
+    <p>ChatGPT trata de una inteligencia artificial que está entrenada para mantener conversaciones, de manera que solo tienes que hacerle preguntas de manera convencional y las entenderá. Esto abre la puerta a las muchas funciones de ChatGPT, gran cantidad de comandos con los que usarla.</p>
+    <img src="https://www.disashop.com/es/wp-content/uploads/sites/2/2023/03/Ejemplo-de-chat-con-chatgpt-1024x590.jpg" alt="Imagen de ChatGPT" width="300" height="200">
+    <!--Podemos agregar la explicacion de como utilizarla-->
+    <br>
+
+    <h2 id="luzia"><a href="https://soyluzia.com/">LuzIA</h2></a>
+    <p>LuzIA es un bot que ofrece dos funciones en una. Por una parte, puedes interactuar con él como si fuera ChatGPT, lo que ya te abre muchas posibilidades. Pero otra de las cosas por las que está ganando fama es porque puede transcribir mensajes de voz, por lo que puedes enviarle o compartirle uno para que te lo pase a texto.</p>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGj1DKe0TIWtanyX04OcrdTamFS1KjnFBnTQ&usqp=CAU" alt="Imagen de LuzIA" width="300" height="200">
+    <!--Podemos agregar la explicacion de como utilizarla-->
+    <br>
+
+    <h2 id="yatter_plus"><a href="https://yatterplus.in/">Yatter Plus</h2></a>
+   <p>Yatter Plus es un chatbot de WhatsApp impulsado por inteligencia artificial diseñado para simplificar su vida al proporcionar respuestas instantáneas a sus consultas, preguntas e inquietudes. Como asistente personal disponible las 24 horas del día, los 7 días de la semana, Yatter Plus utiliza el poder de la IA para brindarle acceso a la información correcta en el momento adecuado, solo con un simple mensaje.</p>
+   <img src="https://pbs.twimg.com/media/FyHCZngakAAo8VV.jpg" alt="Imagen de Yatter Plus" width="300" height="200">
+   <!--Podemos agregar la explicacion de como utilizarla-->
+   <br>
+
+    <h2 id="perplexity_ai"><a href="https://www.perplexity.ai/">Perplexity AI</h2></a>
+    <p>Perplexity no crea texto como ChatGPT, si no que nos permite encontrar información de forma rápida y precisa. A ello se le agrega que la página de resultados muestra de qué páginas ha sacado la información y nos permite acceder con solo un click.</p>
+    <img src="https://global-uploads.webflow.com/63994dae1033718bee6949ce/63be4ba1464ebd6e73bc9f60_63b72d3fd4286272319fbe3c_Screenshot%2520(128).png" alt="Imagen de Perplexity AI" width="300" height="200">
+    <!--Podemos agregar la explicacion de como utilizarla-->
+    <br>
+
+    <h2 id="youchat"><a href="https://youchat.com/">YouChat</h2></a>
+    <p>You.com es un buscador potenciado por una IA, por lo que permite que los usuarios puedan encontrar lo que desean de forma más fácil y rápida. Sin embargo, este también cuenta con YouChat, un apartado donde el usuario puede hacer prácticamente lo mismo que con ChatGPT.
+      Esto se debe a que YouChat utiliza GPT-3.5, el modelo de procesamiento de lenguaje natural del chatbot.
+    </p>
+    <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2022/12/Buscador-You-YouChat-IA-scaled.jpg?fit=2560%2C1440&quality=50&strip=all&ssl=1" alt="Imagen de YouChat" width="300" height="200">
+    <!--Podemos agregar la explicacion de como utilizarla-->
+    <br>
+    </div>
+  </div>
+
+  <div id="imagenes" class="tab-content">
+    <div class="sidebar">
+    <ul class="navigation">
+      <li>
+        <a href="#Blue Willow">Blue Willow</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_7">AI 7</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_8">AI 8</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_9">AI 9</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_10">AI 10</a>
+      </li>
+    </ul>
+    </div>
+    <div class="content">
+    <h2 id="Blue Willow"><a href="https://www.bluewillow.ai/">Blue Willow</h2></a>
+    <p>Blue Willow es una herramienta de inteligencia artificial similar a MidJourney.</p>
+    <p>Blue Willow funciona como una herramienta de IA generadora de imágenes diseñada para ser de fácil uso y accesible para todos.  Independientemente del nivel de experiencia o conocimientos, además, es posible crear de forma gratuita las imágenes.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+    <p>1- Ingresar al servidor de Discord, la cual podemos encontrar en la pagina oficial.</p>
+    <p>2- En caso de no tener cuenta, registrarse.
+    <br>
+    <p>3- Una vez dentro del servidor, dirigirse al canal <strong>"Rokies"</strong> en cualquier número.</p>
+    <p>4- Escribir el comando <strong>"/image"</strong> que es el prompt y la indicación que buscas que la IA cumpla.</p>
+    <br>
+
+    <h2 id="enlace_ai_7">enlace_ai_7</h2>
+    <p>Descripción del AI 7.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+
+    <h2 id="enlace_ai_8">enlace_ai_8</h2>
+    <p>Descripción del AI 8.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+
+    <h2 id="enlace_ai_9">enlace_ai_9</h2>
+    <p>Descripción del AI 9.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+
+    <h2 id="enlace_ai_10">enlace_ai_10</h2>
+    <p>Descripción del AI 10.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+  </div>
+  </div>
+
+  <div id="videos" class="tab-content">
+    <div class="sidebar">
+    <ul class="navigation">
+      <li>
+        <a href="#deepbrain_ai">DeepBrain AI</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_12">AI 12</a>
+      </li>
+      <!-- Agrega más elementos de AI en la categoría de Videos si lo deseas -->
+    </ul>
+    </div>
+    <div class="content">
+    <h2 id="deepbrain_ai"><a href="https://www.deepbrain.io/aistudios?via=bryan&gclid=EAIaIQobChMIxvLjm-HA_wIV4Eh_AB3GLgNaEAAYASAAEgJyYvD_BwE">DeepBrain AI</h2></a> 
+    <p>Deepbrain AI es un innovador Editor de video con IA que permite a los usuarios producir videos profesionales al convertir texto en voz en solo unos minutos.
+    <br>Utiliza inteligencia artificial para generar videos.
+    <br>Esta increíble plataforma también ofrece la posibilidad de convertir presentaciones de PowerPoint en videos.
+    <br>La plataforma admite más de 80 idiomas y le permite editar y actualizar sus videos cuando sea necesario.  
+  </p>
+    <img src="https://global-uploads.webflow.com/63994dae1033718bee6949ce/646ea075c55ee31a294883f9_AI%20Studios%202.0_2.jpg" alt="Imagen de DeepBrain AI" width="300" height="200">
+    <!--Agregar explicacion de como funciona-->
+    <br>
+
+    <h2 id="enlace_ai_12">enlace_ai_12</h2>
+    <p>Descripción del AI 12.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+  </div>
+  </div>
+
+  <div id="audio" class="tab-content">
+    <div class="sidebar">
+    <ul class="navigation">
+      <li>
+        <a href="#enlace_ai_13">AI 13</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_14">AI 14</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_15">AI 15</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_16">AI 16</a>
+      </li>
+      <li>
+        <a href="#enlace_ai_17">AI 17</a>
+      </li>
+    </ul>
+    </div>
+    <div class="content">
+    <h2 id="enlace_ai_13">enlace_ai_13</h2>
+    <p>Descripción del AI 13.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+
+    <h2 id="enlace_ai_14">enlace_ai_14</h2>
+    <p>Descripción del AI 14.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+    
+    <h2 id="enlace_ai_15">enlace_ai_15</h2>
+   <p>Descripción del AI 15.</p>
+   <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+
+    <h2 id="enlace_ai_16">enlace_ai_16</h2>
+    <p>Descripción del AI 16.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+    
+    <h2 id="enlace_ai_17">enlace_ai_17</h2>
+    <p>Descripción del AI 17.</p>
+    <img src="imagen_ia.jpg" alt="Imagen de Inteligencia Artificial" width="300" height="200">
+  </div>
+  </div>
+
+  <div id="formulario" class="tab-content">
+    <!-- Agrega el formulario de contacto o información de contacto si lo deseas -->
+    <h1>Formulario de contacto</h1>
+  <form action="guardar.php" method="post">
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre" required>
+
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" required>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+
+    <input type="submit" value="Enviar">
+  </form>
+  </div>
+  <body onload="mostrarContenido('home')">
+</body>
+
+<footer>
+  <h4>Contáctanos a través de</h4>
+  <ul class="redes-sociales">
+    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+    <li><a href="#"><i class="fab fa-youtube"></i></a></li>    
+  </ul>
+</footer>
+</html>
+
+
