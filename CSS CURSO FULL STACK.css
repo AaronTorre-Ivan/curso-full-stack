@@ -1,0 +1,187 @@
+/* Estilos CSS para el menú de navegación */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  z-index:1;
+}
+.content {
+  margin-left: 250px; /* Ajusta este valor según el ancho del menú lateral */
+  padding: 20px;
+  z-index:0;
+}
+
+body{
+  background-image: url("ia imagen.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 10px;
+}
+
+.logo img {
+  height: 40px;
+  margin-right: 20px;
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+li {
+  float: left;
+}
+a{
+text-decoration: none;
+color: black;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111; /*Cambiar color al pasar por encima*/
+}
+
+li a.active {
+  background-color: #111;/*Color del fondo de la categoria al estar en ella*/
+}
+
+.tab-content {
+  display: none;
+}
+p  {
+    color: black;
+    font-size: 24px;
+}
+h2  {
+  color: black;
+  font-size: 30px;
+}
+.active {
+  background-image: url("ia imagen.jpg"); /*Cambiar color del fondo al clickear en una categoria*/
+}
+
+
+
+
+.sidebar {
+  position: sticky;
+  top: 10px;
+  left:8,5px;
+  width: 200px;
+  height: 100vh;
+  background-color: #333;
+  padding: 20px;
+  z-index: 1;
+}
+
+.sidebar .navigation {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar .navigation li {
+  margin-bottom: 10px;
+}
+
+.sidebar .navigation li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar .navigation li a:hover {
+  background-color: #111;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  z-index: 1;
+}
+
+h4 {
+  font-size:20px;
+  text-align: center;
+  color: white;
+}
+
+.redes-sociales {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.redes-sociales li {
+  margin: 0 10px;
+}
+
+.redes-sociales li a {
+  text-decoration: none;
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
