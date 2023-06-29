@@ -46,10 +46,12 @@ body{
 li {
   float: left;
 }
+
 a{
 text-decoration: none;
 color: black;
 }
+
 li a {
   display: block;
   color: white;
@@ -72,6 +74,10 @@ li a.active {
 p  {
     color: black;
     font-size: 24px;
+}
+h3 {
+  color: black;
+  font-size: 24px;
 }
 h2  {
   color: black;
